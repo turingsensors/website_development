@@ -1,0 +1,8 @@
+Submit times
+
+	<form action="{% url 'schedule' %}" method="post">
+			{% csrf_token %}
+		    <input type="text" name="start_time"/>
+		    <input type="text" name="end_time"/>
+	<input type="submit" value="Vote" />
+	</form>
