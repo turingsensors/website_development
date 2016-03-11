@@ -7,6 +7,7 @@ body {
 	background-image: url("media/background.png");
 	background-size: 100%;
 	width: 100%;
+	height: 100%;
 }
 
 .logo {
@@ -18,48 +19,67 @@ body {
 	font-size: 30;
     width: 50%;
     margin: 0 auto; 
-    margin-top: 50;
+    margin-top: 20;
     text-align: center;
 }
 
 .root_white {
-	margin-top: 100;
+	margin-top: 50;
 	margin-bottom: 100;
-	width: 40%;
-	margin-left: 30%;
+	width: 25%;
+	margin-left: 36%;
 }
 
 .root_full {
-	margin-top: 100;
-	margin-bottom: 100;
-	width: 50%;
-	margin-left: 25%;
+	margin-top: 10;
+	margin-bottom: 50;
+	width: 23%;
+	margin-left: 37%;
 }
 
 .root_text {
     margin: 0 auto; 
-    font-size: 100;
+    font-size: 60;
     text-align: center;
     width: 100%;
+    height: 10%;
 }
 
 .intro_text {
 	width: 100%;
-	font-size: 20px;
+	height: .1%;
+	font-size: 13px;
 	text-align: center;
 }
 
-.info_text {
-	margin-left: 15%;
-	margin-right: 15%;
-	font-size: 25;
+.info_text_we {
+	margin-left: 22%;
+	margin-right: 22%;
+	font-size: 20;
+	text-align: center;
 }
 
 .info_text_large {
 	margin-left: 15%;
 	margin-right: 15%;
 	font-size: 45;
+	text-align: center;
 }
+
+.info_text_intro {
+	margin-left: 22%;
+	margin-right: 22%;
+	font-size: 20;
+	text-align: center;
+}
+
+.info_text_great {
+	margin-left: 24%;
+	margin-right: 24%;
+	font-size: 20;
+	text-align: center;
+}
+
 
 .team_img {
 	margin-left: 10%;
