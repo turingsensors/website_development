@@ -1,5 +1,5 @@
 body {
-	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-family: Avenir, Vito, Calibri;
 	margin: 0;
 }
 
@@ -10,36 +10,51 @@ body {
 	height: 100%;
 }
 
+.great {
+	background-color: #e6ffe6;
+}
+
 .logo {
-	margin: 20;
-	width: 50px;
+	margin-top: 2%;
+	margin-left: 2%;
+	width: 5%;
+}
+
+.mailchimp {
+	padding-top: 2%;
+	text-align: center;
+}
+
+.mc_input{
+	font: 20px Avenir, Vito, Calibri;
+}
+.button{
+	font: 400px Avenir, Vito, Calibri;
 }
 
 .title_text {
-	font-size: 30;
+	font-size: 185%;
     width: 50%;
     margin: 0 auto; 
-    margin-top: 20;
     text-align: center;
 }
 
 .root_white {
-	margin-top: 50;
-	margin-bottom: 100;
+	margin-top: 3%;
+	margin-bottom: 3%;
 	width: 25%;
 	margin-left: 36%;
 }
 
 .root_full {
-	margin-top: 10;
-	margin-bottom: 50;
-	width: 23%;
-	margin-left: 37%;
+	margin-bottom: 2%;
+	width: 22%;
+	margin-left: 38%;
 }
 
 .root_text {
     margin: 0 auto; 
-    font-size: 60;
+    font-size: 350%;
     text-align: center;
     width: 100%;
     height: 10%;
@@ -48,40 +63,79 @@ body {
 .intro_text {
 	width: 100%;
 	height: .1%;
-	font-size: 13px;
+	font-size: 90%;
 	text-align: center;
 }
 
 .info_text_we {
 	margin-left: 22%;
 	margin-right: 22%;
-	font-size: 20;
-	text-align: center;
+	font-size: 125%;
+	text-align: left;
 }
 
 .info_text_large {
+	padding-top: .5%;
 	margin-left: 15%;
 	margin-right: 15%;
-	font-size: 45;
+	font-size: 200%;
+	text-align: center;
+}
+
+.info_text_huge {
+	padding-top: .5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 300%;
 	text-align: center;
 }
 
 .info_text_intro {
 	margin-left: 22%;
 	margin-right: 22%;
-	font-size: 20;
-	text-align: center;
+	font-size: 120%;
+	text-align: left;
 }
 
 .info_text_great {
-	margin-left: 24%;
-	margin-right: 24%;
-	font-size: 20;
+	margin-left: 22%;
+	margin-right: 2%;
+	font-size: 125%;
+	text-align: left;
+}
+
+.team_large {
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 250%;
 	text-align: center;
 }
 
+.team {
+	margin-left: 22%;
+	margin-right: 25%;
+	text-align: center;
+}
 
-.team_img {
-	margin-left: 10%;
-	width: 80%
+.mike {
+	height: 350;
+}
+.joe {
+	height: 350;
+}
+.rohun {
+	height: 350;
+}
+.don {
+	height: 350;
+}
+.drew {
+	height: 375;
+}
+
+.team_school{
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 125%;
+	text-align: center;
 }
