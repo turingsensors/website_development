@@ -3,14 +3,14 @@ body {
 	margin: 0;
 }
 
-.intro {
+.home {
 	background-image: url("media/background.png");
 	background-size: 100%;
 	width: 100%;
 	height: 100%;
 }
 
-.great {
+.why {
 	background-color: #e6ffe6;
 }
 
@@ -22,14 +22,17 @@ body {
 
 .mailchimp {
 	padding-top: 2%;
+	padding-right: 30%;
+	padding-left: 30%;
 	text-align: center;
 }
 
 .mc_input{
-	font: 20px Avenir, Vito, Calibri;
+	font: 50% Avenir, Vito, Calibri;
+	width: 25%;
 }
 .button{
-	font: 400px Avenir, Vito, Calibri;
+	font-size: 40% Avenir, Vito, Calibri;
 }
 
 .title_text {
@@ -111,7 +114,7 @@ body {
 	text-align: center;
 }
 
-.team {
+.team_pics {
 	margin-left: 22%;
 	margin-right: 25%;
 	text-align: center;
@@ -121,7 +124,7 @@ body {
 	height: 350;
 }
 .joe {
-	height: 350;
+	height: 370;
 }
 .rohun {
 	height: 350;
@@ -138,4 +141,51 @@ body {
 	margin-right: 15%;
 	font-size: 125%;
 	text-align: center;
+}
+
+.supporters_large {
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 200%;
+	text-align: center;
+}
+
+.advisors {
+	margin-left: 22%;
+	margin-right: 22%;
+	font-size: 125%;
+	text-align: center;
+}
+
+.navbar{
+	background: clear;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+.nav {
+	padding-top: .5%;
+	padding-bottom: .5%;
+}
+
+.btn{
+	font-size: 20;
+	border: black;
+	background: transparent;
+}
+
+.btn2{
+	font-size: 14;
+	color: black;
+	background-color: #e6ffe6;
+}
+
+.page-scroll{
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-top: .3%;
+	padding-bottom: .3%;
+	background-color: clear;
+	color: green;
 }
